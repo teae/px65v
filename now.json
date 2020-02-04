@@ -4,7 +4,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "headers": { "Cache-Control": "max-age=36000" },
+      "headers": { "Cache-Control": "public, max-age=36000" },
       "dest": "http://cdn-dls.65v.net/$1"
     }
   ],
