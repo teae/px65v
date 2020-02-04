@@ -1,6 +1,5 @@
  {
   "name": "proxy",
-  "regions": ["sfo1","hnd1"],
   "version": 2,
   "routes": [
     {
@@ -8,5 +7,6 @@
       "headers": { "Cache-Control": "max-age=36000" },
       "dest": "http://cdn-dls.65v.net/$1"
     }
-  ]
+  ],
+  "regions": ["sfo1","hnd1"]
  }
